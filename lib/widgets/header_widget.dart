@@ -26,7 +26,7 @@ class HeaderWidget extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 50,
-                backgroundImage: NetworkImage("https://images.pexels.com/photos/12899151/pexels-photo-12899151.jpeg"),
+                backgroundImage: NetworkImage("https://png.pngtree.com/png-clipart/20230823/original/pngtree-three-kids-hiking-in-the-forest-childhood-adventure-activity-vector-png-image_10635643.png"),
               ),
               Positioned(
                 right: 3,
