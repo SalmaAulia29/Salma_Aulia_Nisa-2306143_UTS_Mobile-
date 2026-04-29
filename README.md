@@ -1,17 +1,12 @@
-# salma_application_4
 
-A new Flutter project.
+## Perubahan yang ditambahkan:
+- QuestWidget sekarang menerima data quest dari parameter
+- Data quest (title, reward, icon) dikirim dari main.dart
+- Quest menjadi dinamis, tidak statis lagi
 
-## Getting Started
+## Tombol/Interaksi:
+- Quest bisa di-tap (onTap sudah ditambahkan)
+- Reward XP ditampilkan di setiap quest
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Salma Aulia Nisa
+-2306143

@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 
-
 class ChipWidget extends StatelessWidget {
   final Color warna;
   final IconData icon;
   final String label;
   final int value;
 
-  const ChipWidget({super.key,required this.warna,required this.icon,required this.label ,required this.value});
+  const ChipWidget({super.key, required this.warna, required this.icon, required this.label, required this.value});
 
   @override
   Widget build(BuildContext context) {
@@ -21,9 +20,12 @@ class ChipWidget extends StatelessWidget {
       child: Row(
         children: [
           Icon(icon, size: 18, color: warna),
-          SizedBox(width: 8,),
+          const SizedBox(width: 8),
           Text(label),
-          Text(value.toString(),  style: const TextStyle(fontWeight: .bold),),
+          Text(
+            value.toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
+          ),
         ],
       ),
     );
